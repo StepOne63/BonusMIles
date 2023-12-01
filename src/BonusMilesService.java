@@ -1,8 +1,7 @@
 import java.security.Provider;
 
 public class BonusMilesService {
-    public int calculate(int price) {
-        price = 10_000;
+    public int calculate( int price) {
         int part = 20;
         int miles = 1;
         int bonus = price / part * miles;
